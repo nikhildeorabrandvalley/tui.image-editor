@@ -63,6 +63,10 @@ class Component {
     return this.graphics.getCanvasImage();
   }
 
+  getFilterSourceImage(){
+    return this.graphics.getObject(id);
+  }
+
   /**
    * Get image name
    * @returns {string}

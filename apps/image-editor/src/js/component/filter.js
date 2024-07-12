@@ -151,7 +151,8 @@ class Filter extends Component {
    * @private
    */
   _getSourceImage() {
-    return this.getCanvasImage();
+    // return this.getCanvasImage();
+    return this.getFilterSourceImage();
   }
 
   /**
